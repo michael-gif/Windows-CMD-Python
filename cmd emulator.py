@@ -57,7 +57,7 @@ def process_command(event):
         if result == '':
             result = f"'{keyword}' is not recognized as an internal or external command, operable program or batch file."
     # output to the terminal
-    output.insert(END, f'\n{result}\n\ninjection_bot >')
+    output.insert(END, f'\n{result}\n\nboi >')
     output.delete('end-1c', 'end')
     output.see(END)
     # set the cursor_barrier to the end of the mandatory text
